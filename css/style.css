@@ -1,0 +1,156 @@
+body {
+  background: #DAF7F6;
+  color: #3B3B3B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+header {
+  background: #FFF;
+  text-align: center;
+}
+
+h1 {
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0;
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+
+header img {
+  margin-right: 20px;
+}
+
+main {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.card {
+  margin: 20px 0;
+  overflow: auto;
+}
+
+.image {
+  float: left;
+  height: 550px;
+  width: 500px;
+}
+
+.recipe {
+  background: #FFF;
+  box-sizing: border-box;
+  float: left;
+  height: 550px;
+  padding: 20px;
+  width: 500px;
+}
+
+.recipe h2 {
+  color: #F16059;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.recipe h3 {
+  padding: 10px;
+  border-top: 1px solid #3B3B3B;
+  border-bottom: 1px solid #3B3B3B;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #F16059;
+}
+
+#cookies .image {
+  background-image: url("../img/gluten-free-sugar-cookies.jpg");
+  background-size: cover;
+}
+
+#pesto .image {
+  background-image: url("../img/nut-free-pesto.jpg");
+  background-size: cover;
+}
+
+#salad .image {
+  background-image: url("../img/watermelon-salad.jpg");
+  background-size: cover;
+}
+
+.time {
+  margin-bottom: 20px;
+  border: 1px solid #3B3B3B;
+  overflow: auto;
+  text-transform: uppercase;
+}
+
+.time .prep {
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+}
+
+.time .cook {
+  float: left;
+  border-left: 1px solid #3B3B3B;
+  border-right: 1px solid #3B3B3B;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+}
+
+.time .total {
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+}
+
+.time img {
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.time-details {
+  display: inline-block;
+}
+
+.time strong {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+  overflow: auto;
+}
+
+.directions {
+  float: left;
+  width: 240px;
+}
+
+.directions ol {
+  padding-left: 25px;
+  line-height: 20px;
+}
+
+.ingredients {
+  float: left;
+  width: 205px;
+}
+
+.ingredients ul {
+  padding-left: 25px;
+  line-height: 20px;
+  list-style: square;
+}
